@@ -15,48 +15,49 @@
 <body>
  <!--Шапка сайта-->
  <header class="page-header">
-    <div class="container page-header-container">
-    <nav class="page-nav">
-        <a class="main-logo" href="./index.html" lang="en">Web<span class="logo-dark">Studio</span></a>
-        <ul class="menu list">
-            <li class="menu-item"><a class="menu-link current link" href="./index.html">Студія</a></li>
-            <li class="menu-item"><a class="menu-link link" href="./portfolio.html">Портфоліо</a></li>
-            <li class="menu-item"><a class="menu-link link" href="#">Контакти</a></li>
-        </ul>
+    <div class="container page-header-box">
+     <nav class="page-nav">
+         <a class="main-logo" href="./index.html" lang="en">Web<span class="logo-dark">Studio</span></a>
+         <ul class="menu list">
+             <li class="menu-item"><a class="menu-link current link" href="./index.html">Студія</a></li>
+             <li class="menu-item"><a class="menu-link link" href="./portfolio.html">Портфоліо</a></li>
+             <li class="menu-item"><a class="menu-link link" href="#">Контакти</a></li>
+         </ul>
       </nav>
-    <ul class="menu-contact list">
-        <li><a class="header-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a class="header-phone link" href="tel:+380961111111">+38 096 111 11 11</a></li>
-    </ul>
+
+     <ul class="menu-contact list">
+         <li class="header-mail-item"><a class="header-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+         <li class="header-phone-item"><a class="header-phone link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+     </ul>
     </div>
  </header>
  <!--Основний контент сторінки сайту-->
   <main class="studio-main">
     <!--Секція 1 ефективні рішення-->
-    <section class="section-service">
-        <div class="container">
-            <h1 class="top-title">Ефективні рішення для вашого бізнесу</h1>
-            <button class="top-btn" type="button">Замовити послугу</button>
+    <section class="section-service section">
+        <div class="container service-box">
+        <h1 class="top-title">Ефективні рішення для вашого бізнесу</h1>
+        <button class="top-btn" type="button">Замовити послугу</button>
         </div>
     </section>
     <!--Секція 2 Наші переваги, заголовок прихований-->
-    <section class="section-advantages section">
+    <section class="section-advantages">
+        <div class="container">
         <h2 class="title-advantages visually-hidden">Наші переваги</h2>
         <ul class="list-advantages list">
-            <div class="container list-advantages-container">
-            <li class="item-advantages">
+            <li>
                 <h3 class="subtitle-advantages">Увага до деталей</h3>
                 <p class="text-advantages">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
             </li>
-            <li class="item-advantages">
+            <li>
                 <h3 class="subtitle-advantages">Пунктуальність</h3>
                 <p class="text-advantages">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
             </li>
-            <li class="item-advantages">
+            <li>
                 <h3 class="subtitle-advantages">Планування</h3>
                 <p class="text-advantages">Так само консультація з широким активом значною мірою зумовлює.</p>
             </li>
-            <li class="item-advantages">
+            <li>
                 <h3 class="subtitle-advantages">Сучасні технології</h3>
                 <p class="text-advantages">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
             </li>
@@ -76,7 +77,6 @@
     </section>
     <!--Секція 4 представлена Наша команда-->
     <section class="section-team">
-        <div class="container">
         <h2 class="title-team">Наша команда</h2>
         <ul class="list-team list">
             <li class="item-team">
@@ -100,12 +100,10 @@
                 <p class="post-team" lang="en">UI Designer</p>
             </li>
         </ul>
-        </div>
     </section>
   </main>
   <!--Футер сторінки сайту-->
   <footer class="footer">
-    <div class="container">
     <a class="main-logo" href="./index.html" lang="en">Web<span class="logo-light">Studio</span></a>
     <address class="address">
         <ul class="list-address list address-mail address-phone">
@@ -114,7 +112,6 @@
             <li><a class="link-address-phone link" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
     </address>
-    </div>
   </footer>   
 </body>
 </html>
