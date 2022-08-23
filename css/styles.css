@@ -81,6 +81,7 @@ button {
 .page-header {
     display: flex;
     align-items: center;
+    border-bottom: 1px solid #ECECEC;
 }
 
 .page-nav {
@@ -294,6 +295,8 @@ button {
 
 .section-team {
     background: var(--section-time-background);
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .title-team {
@@ -301,6 +304,21 @@ button {
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.team-box {
+    display: flex;
+    column-gap: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+}
+
+.name-post-box {
+    padding: 30px;
 }
 
 .list-our-work {
@@ -311,6 +329,7 @@ button {
 
 .item-team {
     background: var(--primary-background);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .name-team {
@@ -318,6 +337,7 @@ button {
         font-size: 16px;
         line-height: 1.19;
         text-align: center;
+        margin-bottom: 10px;
 }
 
 .post-team {
@@ -334,8 +354,27 @@ button {
     background: var(--footer-background);
 }
 
+.section-footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.logo-footer {
+    margin-bottom: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
 address {
     font-style: normal;
+}
+
+.list-address {
+    margin-bottom: 0px;
+}
+
+.item-address:not(:last-child) {
+    margin-bottom: 9px;
 }
 
 .link-address-map {
@@ -370,6 +409,22 @@ address {
 
 /*==section-portfolio/Секція Портфоліо==*/
 
+.section-portfolio {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.list-btm-filter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.item-btm-filter:not(:last-child) {
+    margin-right: 8px;
+}
+
 .btn-filter {
         font-weight: 500;
         font-size: 16px;
@@ -377,12 +432,29 @@ address {
         text-align: center;
         background: var(--button-filter-background);
         color: var(--primary-text-color);
+        padding: 6px 22px;
+        border-radius: 4px;
+        border: none;
 }
 
 .btn-filter:hover,
 .btn-filter:focus {
     background: var(--accent-color);
     color: var(--primary-light-color-text);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.item-portfolio-box {
+    padding: 20px 24px;
+    border-bottom: 1px solid #EEEEEE;
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+}
+
+.list-portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 
 .subtitle-portfolio {
@@ -391,6 +463,7 @@ address {
         line-height: 2;
         letter-spacing: 0.06em;
         color: var(--primary-text-color);
+        margin-bottom: 4px;
 }
 
 .text-portfolio {
