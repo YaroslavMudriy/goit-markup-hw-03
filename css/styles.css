@@ -218,6 +218,7 @@ button {
         font-size: 16px;
         line-height: 1.88;
         display: flex;
+        justify-content: center;
         align-items: center;
         text-align: center;
         letter-spacing: 0.06em;
@@ -227,6 +228,9 @@ button {
         margin-left: auto;
         margin-right: auto; 
         border-radius: 4px;
+        width: 216px;
+        height: 50px;
+        border: none;
 }
 
 .top-btn:hover,
@@ -264,11 +268,16 @@ button {
 
 }
 
+.item-advantages {
+    width: 270px;
+}
+
 .subtitle-advantages {
         font-weight: 700;
         line-height: 1.14;
         text-transform: uppercase;
         margin-bottom: 10px;
+        font-size: 14px;
 }
 
 .text-advantages {
